@@ -2,6 +2,6 @@ fastapi
 uvicorn
 scikit-learn==1.6.1
 pandas
-rdkit-pypi
+rdkit
 joblib
 python-multipart
