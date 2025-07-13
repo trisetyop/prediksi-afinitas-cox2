@@ -20,7 +20,7 @@ app.add_middleware(
 
 
 # Load the trained model
-model = joblib.load('..\model_cox2.pkl')
+model = joblib.load('model_cox2.pkl')
 
 def smiles_to_fp(smiles, radius=2, nBits=2048):
     mol = Chem.MolFromSmiles(smiles)
